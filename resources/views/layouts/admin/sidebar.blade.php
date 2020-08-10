@@ -76,11 +76,9 @@
                     </li>
                     <li><hr></li>
 
-                    {{ dd($laravelAdminMenus) }}
                     @foreach($laravelAdminMenus->menus as $section)
                         @if(count(collect($section->items)) > 0)
                             @foreach($section->items as $menu)
-                                @can('view-'.str_slug($menu->title))
                                     <li>
                                         <a class="waves-effect" href="{{ url($menu->url) }}">
                                             <i class="{{$menu->icon}}"></i>
@@ -88,7 +86,6 @@
                                         </a>
                                     </li>
                                     <hr>
-                                @endcan
                             @endforeach
                         @endif
                     @endforeach
