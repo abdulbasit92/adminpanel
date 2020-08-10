@@ -7,10 +7,10 @@
                 <div class="white-box card">
                 <div class="card-body">
                     <h3 class="box-title pull-left">Create New %%modelName%%</h3>
-                    @can('view-'.str_slug('%%modelName%%'))
+                    
                         <a class="btn btn-success pull-right" href="{{url('/%%routeGroup%%%%viewName%%')}}">
                             <i class="icon-arrow-left-circle"></i> View %%modelName%%</a>
-                    @endcan
+                    
                     <div class="clearfix"></div>
                     <hr>
                     @if ($errors->any())

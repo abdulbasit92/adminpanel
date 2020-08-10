@@ -76,6 +76,7 @@
                     </li>
                     <li><hr></li>
 
+                    {{ dd($laravelAdminMenus) }}
                     @foreach($laravelAdminMenus->menus as $section)
                         @if(count(collect($section->items)) > 0)
                             @foreach($section->items as $menu)
