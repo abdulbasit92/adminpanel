@@ -8,8 +8,6 @@ use App\Category;
 use App\orders;
 use App\orders_products;
 use App\Product;
-use App\Language;
-use App\Color;
 use App\imagetable;
 use Illuminate\Http\Request;
 use Image;
@@ -81,10 +79,8 @@ class ProductController extends Controller
 			
 			// $items = Category::all(['id', 'name']);
 			$items = Category::pluck('name', 'id');
-			$language = Language::get();
-			$colors = Color::pluck('color', 'id');
 			
-            return view('admin.product.create', compact('items','language','colors'));
+            return view('admin.product.create', compact('items'));
         }
         return response(view('403'), 403);
 
@@ -200,8 +196,6 @@ class ProductController extends Controller
             $product = Product::findOrFail($id);
 			
 			$items = Category::pluck('name', 'id');
-			$language = Language::get();
-			$colors = Color::pluck('color', 'id');
 		
 			$product_images = DB::table('product_imagess')
                           ->where('product_id', $id)
@@ -209,7 +203,7 @@ class ProductController extends Controller
 			
 		
 			
-            return view('admin.product.edit', compact('product','items','language','colors','product_images'));
+            return view('admin.product.edit', compact('product','items','product_images'));
         }
         return response(view('403'), 403);
     }
