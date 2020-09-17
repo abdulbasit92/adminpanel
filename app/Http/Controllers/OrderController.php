@@ -330,22 +330,23 @@ class OrderController extends Controller
 			$validateArr = array();
 			$messageArr = array();
 			
-			$validateArr['country_code'] = 'required|max:255';
+			//$validateArr['country_code'] = 'required|max:255';
 			$validateArr['country'] = 'required|max:50';
 			$validateArr['first_name'] = 'required|max:255';
-			$validateArr['last_name'] = 'required|max:255';
+			//$validateArr['last_name'] = 'required|max:255';
 			$validateArr['company_name'] = 'required|max:255';
 			$validateArr['address_line_1'] = 'required|max:255';
 			$validateArr['city'] = 'required|max:50';
-			$validateArr['area'] = 'required';
-			$validateArr['landmark'] = 'required';
-			$validateArr['floor_num'] = 'required';
-			$validateArr['building'] = 'required';
+			//$validateArr['area'] = 'required';
+			//$validateArr['landmark'] = 'required';
+			//$validateArr['floor_num'] = 'required';
+			//$validateArr['building'] = 'required';
 			$validateArr['email'] = 'required|max:20';
 			$validateArr['phone_no'] = 'required|max:20';
+			//$validateArr['zip_code'] = 'required|max:20';
 			
 			$messageArr['first_name.required'] = 'The first name field is required.';
-			$messageArr['last_name.required'] = 'The last name field is required.';
+			//$messageArr['last_name.required'] = 'The last name field is required.';
 		
 			$id = 0;
 			if(isset($_POST['create_account'])) {
@@ -440,6 +441,7 @@ class OrderController extends Controller
 					if($value['name'] != '') {
     					$order_products = new orders_products;
     					$order_products->order_products_product_id=$value['id'];
+    					$order_products->user_id=Auth::user()->id;
     					$order_products->order_products_name=$value['name'];
     					$order_products->order_products_price=$value['baseprice'];
     					$order_products->orders_id=$orders->id;
