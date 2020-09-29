@@ -61,7 +61,7 @@ box-shadow:none!important;}
 body {background: #f6f7fb; font-family: 'Work Sans', sans-serif; margin: 0;    overflow-x: hidden; color: #222222; font-weight: 400; font-size:14px;}
 html {position: relative; min-height: 100%; background: #f6f7fb;    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
 a {color: #007bff;}
-a:hover,a:focus {text-decoration: none;	outline:none;}
+a:hover,a:focus {text-decoration: none; outline:none;}
 a.link {color: #455a64;}
 a.link:hover, a.link:focus {color: #007bff;}
 select{cursor:pointer;}
@@ -251,7 +251,7 @@ html body .m-b-20 {
 }
 html body .m-b-25 {
     margin-bottom: 25px
-	}
+    }
 html body .m-b-30 {
     margin-bottom: 30px
 }
@@ -1040,12 +1040,12 @@ sidebar navigation
 
 .sidebar-nav>ul>li>a {
     border-left: 3px solid transparent;
-	color:#87888a;
+    color:#87888a;
 }
 
 .sidebar-nav>ul>li>a i {
     font-size: 19px;
-	margin-right:20px;
+    margin-right:20px;
     display: inline-block;
     vertical-align: middle;
     color: #acacaf;
@@ -1366,9 +1366,9 @@ left:0;
 
 .fix-header .topbar {
     margin: 0 auto;
-	position:fixed;
+    position:fixed;
     width: 100%;
-	
+    
 }
 .w-20 { width:20px}
 .fix-header .page-wrapper {
@@ -1447,9 +1447,9 @@ left:0;
 
 .topbar .profile-pic {
     white-space: nowrap;
-	position:relative;
+    position:relative;
     padding-left: 15px;
-	padding-right:0!important;
+    padding-right:0!important;
 }
 
 .topbar .profile-pic img {
@@ -1458,9 +1458,9 @@ left:0;
 }
 
 .topbar .profile-pic span.circle-status {
-	width:13px;
-	height:13px;
-	border:2px solid #ffffff;
+    width:13px;
+    height:13px;
+    border:2px solid #ffffff;
     border-radius: 30px;
     background-color: #7ad835;
     position: absolute;
@@ -1509,14 +1509,14 @@ left:0;
 
 .topbar ul.dropdown-user li .dw-user-box .u-img img {
     width: 60px;
-	
+    
     border-radius: 50%;
 }
 .status-circle{width:6px; height:6px; display:inline-block; margin-right:5px; border-radius:50%;}
 .topbar ul.dropdown-user li .dw-user-box .u-text {
     display: inline-block;
     padding-left: 10px;
-	width: 100%;
+    width: 100%;
 }
 
 .topbar ul.dropdown-user li .dw-user-box .u-text h4 {
@@ -1554,8 +1554,8 @@ left:0;
     position:relative;
     margin: 15px 0 0 0;
     display: inline-block;
-	border:0 none;
-	float:left;
+    border:0 none;
+    float:left;
     z-index: 110;
     width: 100%;
    
@@ -1563,9 +1563,9 @@ left:0;
 
 .app-search input {
     padding:;
-	border:0 none;
+    border:0 none;
     border-radius: 0px;
-	text-indent:20px;
+    text-indent:20px;
     font-size: 14px;
     -webkit-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
@@ -2696,7 +2696,8 @@ Buttons
 
 .btn-rounded {
     border-radius: 60px;
-    padding:5px 18px;
+    padding: 11px 18px;
+    font-size: 18px;
 }
 
 .btn-rounded.btn-lg {
@@ -3385,7 +3386,7 @@ Buttons
 
 .button-group .btn {
     margin-bottom: 10px;
-	margin-top: 10px;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -3547,13 +3548,13 @@ Form Pickers
 
 table th {
     font-weight: 600;
-	
+    
 }
 
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
     background-color: #ff484c;
-	color:#ffffff;
+    color:#ffffff;
 }
 .datepicker table {color:#000000;}
 thead tr:nth-child(2){    background-color: #d3e0fc;}
@@ -3563,7 +3564,7 @@ thead tr:nth-child(2){    background-color: #d3e0fc;}
 .datepicker table tr td.today:hover {
     background: none;
     color: #4886ff;
-	font-weight:600;
+    font-weight:600;
 }
 
 .datepicker td,
@@ -4746,8 +4747,8 @@ File: scss
 }
 
 .mailbox ul li .drop-title {
-	font-size:14px;
-	font-weight: 400;
+    font-size:14px;
+    font-weight: 400;
     padding: 11px 20px 15px;
     border-bottom: 1px solid rgba(120, 130, 140, 0.13);
 }
@@ -4780,7 +4781,7 @@ File: scss
 
 .mailbox .message-center a .user-img {
     width: 40px;
-	float:left;
+    float:left;
     position: relative;
     display: inline-block;
     margin: 0 10px 10px 0;
@@ -4824,9 +4825,9 @@ File: scss
 .mailbox .message-center a .mail-content {
     display: contents;
     width: 100%;
-	float:left;
-	font-size:14px;
-	color:#585858;
+    float:left;
+    font-size:14px;
+    color:#585858;
     padding:0  10px;
     vertical-align: middle;
 }
@@ -5292,14 +5293,14 @@ padding:0 1.25rem;
 
 .fc-toolbar {
     margin: 0px;
-	background:#d3e0fc;
+    background:#d3e0fc;
     padding: 10px 0px;
 }
 
 .fc-button {
     background: none;
     border: 0 none;
-	box-shadow:none;
+    box-shadow:none;
     color: #000;
     text-transform: capitalize;
 }
@@ -6234,7 +6235,7 @@ File: scss
 
 .has-success .form-control {
     border-color: #24d2b5;
-	color:#24d2b5;
+    color:#24d2b5;
 }
 
 .has-warning .col-form-label,
@@ -6450,9 +6451,12 @@ File: scss
 
 @media (min-width: 768px) {
     .navbar-header {
-        width: 260px;
+        width: 100%;
         -ms-flex-negative: 0;
         flex-shrink: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 0 !important;
     }
     .navbar-header .navbar-brand {
         padding-top: 0px;
@@ -6718,8 +6722,8 @@ position:absolute;
 .social-slide li a:hover{color:#455a64;}
 .arrow_box {position: relative; background: #ffffff; box-shadow:0 0 4px rgba(0,0,0,0.2);}
 .arrow_box:after, .arrow_box:before {right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none;}
-.arrow_box:after {border-color: rgba(255, 255, 255, 0); border-right-color: #ffffff;	border-width: 8px; margin-top: -8px;}
-.arrow_box:before {border-color: rgba(194, 194, 194, 0); border-right-color: #c2c2c2;	border-width: 9px; margin-top: -9px;}
+.arrow_box:after {border-color: rgba(255, 255, 255, 0); border-right-color: #ffffff;    border-width: 8px; margin-top: -8px;}
+.arrow_box:before {border-color: rgba(194, 194, 194, 0); border-right-color: #c2c2c2;   border-width: 9px; margin-top: -9px;}
 .center-block {float: none; margin-left: auto; margin-right: auto;}
 .input-group .ico-addon .form-control {border-radius: 0;}
 .ico-addon {position: relative; color: #555; display: block;}
@@ -6743,7 +6747,7 @@ position:absolute;
 .ico-addon:hover .glyphicon,
 .ico-addon .form-control:focus + .fa,
 .ico-addon:hover .fa {color: #2580db;}
-.bordered-input .form-control {border-top: none; border-left: none; border-right: none;   border-radius: 0px; border-bottom-width: 1px;}
+.bordered-input .form-control {border-top: none;border-left: none;border-right: none;border-radius: 0px;border-bottom-width: 1px;background: #efecec;padding: 10px 15px !important;font-size: 16px;border-radius: 30px;border: 0;}
 .button-group.col-lg-2{flex: 0 0 20%; max-width: 20%;}
 .no-background .form-control {background-image:none;}
 .no-bordered .bootstrap-tagsinput{border:0 none; box-shadow:none;}
@@ -6783,7 +6787,7 @@ td.no-border{border:0 none; padding:0.4rem .1rem; }
 .circle-tab{font-size:0.6em;}
 
 /*offline-pages*/
-.single-page-bg { background: url(../../assets/imgs/single-page/page-bg.jpg) no-repeat center bottom #f6f7fb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.single-page-bg {background: url(../../assets/imgs/webb.png);}
 .single-page h2 { font-size:36px; font-weight:600; margin:25% 0 10px 0}
 .single-page h3 { font-size:18px;  color:#626364}
 
@@ -6806,9 +6810,9 @@ ul.social-network li {display: inline; margin: 0 5px;}
 .social-network a.icoFacebook{background-color:#3B5998;}
 .social-network a.icoTwitter {background-color:#33ccff;}
 .social-network a.icoGoogle{background-color:#BD3518;}
-.social-circle li a {display:inline-block; position:relative; margin:0 auto 0 auto; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; text-align:center;	width:34px; height:34px; font-size:18px;}
+.social-circle li a {display:inline-block; position:relative; margin:0 auto 0 auto; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; text-align:center;    width:34px; height:34px; font-size:18px;}
 .social-circle li i {margin:0; line-height:34px; text-align: center;}
-.social-circle li a:hover i, .triggeredHover {-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s;	transition: all 0.2s;}
+.social-circle li a:hover i, .triggeredHover {-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s;  transition: all 0.2s;}
 .social-circle i {color: #fff; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s; -ms-transition: all 0.8s; transition: all 0.8s;}
 .profile-social ul { margin:0; padding:0;}
 .profile-social li { display:inline-block}
@@ -6842,7 +6846,7 @@ margin:0;
 }
 
 .cssmenu ul {
-	display: flex;
+    display: flex;
 /* A key part of our menu, displays items side by side, and allows reversing them */
 flex-direction: row-reverse; /* Reverse the items */
 /* Reset styles, overwrite browser defaults */
