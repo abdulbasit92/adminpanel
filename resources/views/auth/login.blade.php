@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="page-wrapper m-0 pt-5" style="padding-top: 13rem !important;">
+        <div class="page-wrapper m-0 pt-5" style="padding-top: 7rem !important;">
             <div class="container">
 
 
@@ -28,8 +28,8 @@
                                         <div class="form-group m-t-20 row">
                                             <div class="col-12">
                                                 <label for="example-search-input"
-                                                       class="col-form-label font-12 text-primary">Email</label>
-                                                <input class="form-control pl-0 font-12 {{ $errors->has('email') ? ' is-invalid' : '' }}"
+                                                       class="col-form-label font-16 text-primary">Email</label>
+                                                <input class="form-control pl-0 font-16 {{ $errors->has('email') ? ' is-invalid' : '' }}"
                                                        type="text" placeholder="email" name="email" value="{{ old('email') }}"
                                                        required autofocus>
                                                 @if ($errors->has('email'))
@@ -43,8 +43,8 @@
                                         <div class="form-group row m-b-10">
                                             <div class="col-12">
                                                 <label for="example-search-input"
-                                                       class="col-form-label font-12 text-primary">Password</label>
-                                                <input class="form-control font-12  pl-0 {{ $errors->has('password') ? ' is-invalid' : '' }}"
+                                                       class="col-form-label font-16 text-primary">Password</label>
+                                                <input class="form-control font-16  pl-0 {{ $errors->has('password') ? ' is-invalid' : '' }}"
                                                        type="password" name="password" placeholder="password" value="">
                                                 @if ($errors->has('password'))
                                                     <span class="invalid-feedback" role="alert">
